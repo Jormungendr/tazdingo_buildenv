@@ -17,6 +17,7 @@ RUN apt-get update && \
     llvm-19 \
     libclang-19-dev \
     libz-dev && \
+    libpcap-dev && \
     # 清理 apt 缓存以减小镜像体积
     rm -rf /var/lib/apt/lists/*
 
